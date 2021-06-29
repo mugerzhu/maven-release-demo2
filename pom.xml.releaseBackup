@@ -5,7 +5,7 @@
     <groupId>org.example</groupId>
     <artifactId>mvn-release-demo2</artifactId>
     <packaging>pom</packaging>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.2-RELEASE-SNAPSHOT</version>
     <modules>
         <module>m2</module>
     </modules>
@@ -14,22 +14,5 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-
-    <scm>
-        <developerConnection>scm:git:git@github.com:mugerzhu/maven-release-demo2.git</developerConnection>
-    </scm>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
-                <version>3.0.0-M4</version>
-                <configuration>
-                    <tagNameFormat>v@{project.version}</tagNameFormat>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
