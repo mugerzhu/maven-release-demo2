@@ -5,7 +5,7 @@
     <groupId>org.example</groupId>
     <artifactId>mvn-release-demo2</artifactId>
     <packaging>pom</packaging>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
     <modules>
         <module>m2</module>
     </modules>
@@ -17,8 +17,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:mugerzhu/maven-release-demo2.git</developerConnection>
-      <tag>HEAD</tag>
-  </scm>
+    </scm>
 
     <build>
         <plugins>
